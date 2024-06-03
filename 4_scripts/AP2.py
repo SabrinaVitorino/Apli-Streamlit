@@ -7,7 +7,7 @@ import os
 from PIL import Image
 
 #logo = Image.open('matei.png')  # Substitua 'caminho/para/sua/logo.png' pelo caminho correto para sua imagem
-st.image('matei.png', caption='')
+st.image('../matei.png', caption='')
 col1, col2, col3 = st.columns([10, 50, 10])
 
 
