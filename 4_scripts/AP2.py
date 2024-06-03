@@ -12,7 +12,7 @@ import os
 
 
 st.write('***Taxa de Homicídio Intencional***')
-dados = pd.read_csv("0_bases_originais/dados_originais_taxa_de_homicídio_intencional.csv", sep=";", encoding='utf-8')
+dados = pd.read_csv("1_bases_tratadas/dados_originais_taxa_de_homicídio_intencional.csv", sep=";", encoding='utf-8')
 #script_dir = os.path.dirname(os.path.abspath('AP2'))
 #db_path = os.path.join(script_dir, *'_taxas_.db'*)
 
