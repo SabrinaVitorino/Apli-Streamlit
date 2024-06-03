@@ -23,9 +23,9 @@ option = st.selectbox(
    placeholder="",
    )
 
-engine = sqa.create_engine("sqlite:///taxas.db", echo=True)
-comn = engine.connect()
-dados = pd.read_sql('taxas.db', con=comn)
+#engine = sqa.create_engine("sqlite:///taxas.db", echo=True)
+#comn = engine.connect()
+#dados = pd.read_sql('taxas.db', con=comn)
 df = pd.DataFrame(dados)
 #st.dataframe(df)
 
