@@ -4,12 +4,8 @@ import streamlit as st
 import numpy as np
 import plotly.express as px
 import os
-#from PIL import Image
 
-#logo = Image.open('matei.png')  # Substitua 'caminho/para/sua/logo.png' pelo caminho correto para sua imagem
-#st.image('../matei.png', caption='')
-#col1, col2, col3 = st.columns([10, 50, 10])
-
+st.image('4_scripts/matei.png')
 
 st.write('***Taxa de Homicídio Intencional***')
 dados = pd.read_csv("0_bases_originais/dados_originais_taxa_de_homicídio_intencional.csv", sep=";", encoding='utf-8')
